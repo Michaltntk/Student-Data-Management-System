@@ -7,5 +7,5 @@ void Hello() {
     }
 int main()
 {
-    
+    Hello();
 }
