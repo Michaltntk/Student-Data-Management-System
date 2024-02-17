@@ -9,7 +9,7 @@ class Users
 };
 void Print_Options()
 {
-    cout << "Login As: \n";
+    cout << "Choose who to Login As or exit: \n";
     cout << "1. Admin \n";
     cout << "2. Student \n";
     cout << "3. Exit \n";
