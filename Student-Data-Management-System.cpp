@@ -34,5 +34,5 @@ void Choose_Who_to_login()
 
 int main()
 {
-    
+    Print_Options();
 }
