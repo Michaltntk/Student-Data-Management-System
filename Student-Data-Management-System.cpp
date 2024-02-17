@@ -1,8 +1,11 @@
 #include <iostream>
 
 using namespace std;
-class Users{
-    string student;
+
+class Users
+{
+    string Username;
+    string Password;
 };
 void Print_Options()
 {
