@@ -16,6 +16,7 @@ class Administrators : Users
 void Print_Options();
 void Choose_Who();
 void Choose_Option();
+void Choice();
 int main()
 {
     Print_Options();
@@ -31,13 +32,18 @@ void Print_Options()
 void Choose_Who()
 {
     int choice;
-    do{
+    do
+    {
     cout << "Enter your choice: ";
     cin >> choice;
     switch (choice)
         {
         case 1:
-            cout << "Choose if you\n";
+            Choice();
+            if (choice == 1)
+            {
+                Login();
+            }
             break;
         case 2:
             cout << "Logged as user\n";
@@ -52,6 +58,12 @@ void Choose_Who()
     }
     while (choice != 3);
 };
+void Choice()
+{
+    cout << "Choose if you want to login or register an account\n";
+    cout << "1.Login";
+    cout << "2.Register";
+}
 void Choose_Option()
 {
     
